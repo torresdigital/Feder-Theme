@@ -1,0 +1,165 @@
+/*
+    Template:       lapa
+    Theme Name:     Feder Global by TorresDigital
+    Theme URI:      https://www.facebook.com/torresdigital/
+    Author:         Torres Digital -Sites → Lojas Virtuais e e-Commerce
+    Author URI:     https://www.facebook.com/torresdigital/
+    Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web voltado para o Mercado do eCommerce: Sites, Aplicativos, Lojas Virtuais, Marketplaces, Wordpress e Woocommerce, integrados com os Principais Cartões e Soluções de Pagamentos do Brasil e do Mundo; tais como Cielo, CyberSource, PagSeguro, Stripe, Vindi, MasterCard, Visa, American Express, etc. A Torres Digital também conta com uma Equipe Forte, com um Know-how amplo e moderno para Publicidade e Propaganda. 
+    Version:        1.0
+    License: 		GNU General Public License
+	License URI: 	licence/GPL.txt
+    Text Domain:    torresdigital
+    Domain Path:    /languages/
+*/ @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+
+/*Padrao*/
+/*Menu*
+#masthead {border-bottom: 1px solid !important;} */
+html .body-loaded .la-header-sticky-height { height: 50px; max-height: 50px}
+/*.site-header-outer {  border-bottom: 1px solid;  height: 60px; } #revolution-id { margin-top: 20px;}
+/*Stick*/
+.site-header-inner.sticky--pinned {
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    border: none;
+}
+html .header-v8 .site-header__nav .header-main {
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+html .component-target-badget.la-cart-count, html .stock.in-stock {
+    background-color: #000;
+}
+
+/*Home*/
+.texto, .texto a {
+
+    font-size: 25px;
+    margin: 20px auto;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 0 30px;
+    font-weight: 300;
+
+}
+.texto a { padding: 0; color: #333}
+#video-feder-play {
+    max-height: 500px;
+}
+#revolution-id {
+    margin-top: 70px;
+}
+
+/*Woocommerce*/
+.produtos-da-home .product_item.grid-item.product {
+
+    width: 100%;
+    max-width: 24%;
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+
+}
+#produtos-da-home {
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+/*Carrinho*/
+#woo-cart-title .wpb_text_column :last-child, .wpb_text_column p:last-child {text-align: center}
+/*Produto*/
+.threesixty .nav_bar{z-index:3}  .section-page-header {background-color: #fff; }
+.product-template-default.single.single-product .section-page-header .page-title, 
+.la-breadcrumbs .la-breadcrumb-item, a.la-breadcrumb-item-link  { color: #333; }
+.product-template-default.single.single-product .summary.entry-summary .woocommerce-Price-amount.amount {
+    font-size: 40px;
+    font-weight: 300;
+}/*
+.product--summary .single_add_to_cart_button {
+    padding: 8px 45px;
+    background-image: url("/wp-content/uploads/2019/04/buy-feder-back.png");
+    border-radius: 50px;
+}*/
+html div#cfpp div.calculo-de-frete div#calcular-frete {  background-color: #680037; 
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif; padding: 0px 20px 0px; line-height: 54px; text-transform: uppercase; font-weight: 700; font-size: 12px} 
+html div#cfpp div.calculo-de-frete div#calcular-frete svg {  display: none; }
+
+#delivery_truck {display: none !important} .swatch-wrapper.la-swatch-item-style-circle {border: none}
+
+.product--summary .entry-summary > .cart {
+    margin-top: 0px;
+}
+
+/*Checkout*/
+/*Footer*/
+.footer-top {
+    text-align: center;
+    padding-top: 50px;
+}
+.sep {
+    color: #836F4B;
+    padding:  10px;
+    background: #000;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.sep hr {
+    border-top: 1px solid #836F4B;
+    padding:  10px;
+    background: #000;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    max-width: 50%;
+}
+#life-style-right {
+    top: 12px;
+    position: relative;
+    margin: 366px 0 0;
+    text-align: right;
+}
+#for-every {
+    float: initial;
+}
+
+
+
+
+
+
+/*
+#torresdigital-copy {
+    padding: 140px 0 10px;
+    background: #000;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+#torresdigital-copy img {
+    /*max-width: 12%;*
+}
+
+#torresdigital-button {
+         animation: shadow-pulse 1s infinite;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+}
+#torresdigital-button:hover {
+         animation: none;
+
+}
+
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+     }
+}
